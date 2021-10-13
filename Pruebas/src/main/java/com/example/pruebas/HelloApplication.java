@@ -9,7 +9,6 @@
 //Pots veure un exemple a continuació:
 
 package com.example.pruebas;
-
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -17,17 +16,14 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import java.io.IOException;
-import java.lang.reflect.Array;
 
 public class HelloApplication extends Application {
     @Override
     public void start(Stage escacs) throws IOException{
         try {
-
         escacs.setTitle("Practica1.1: Escacs");
 
-        Array[][] total = new Array[8][8];
-
+        //Columna1
         Rectangle rectangle1= rectanguloColor1(0,0);
         Rectangle rectangle2= rectanguloColor2(0,50);
         Rectangle rectangle3= rectanguloColor1(0,100);
@@ -36,6 +32,7 @@ public class HelloApplication extends Application {
         Rectangle rectangle6= rectanguloColor2(0,250);
         Rectangle rectangle7= rectanguloColor1(0,300);
         Rectangle rectangle8= rectanguloColor2(0,350);
+        //Columna3
         Rectangle rectangle9= rectanguloColor1(100,0);
         Rectangle rectangle10= rectanguloColor2(100,50);
         Rectangle rectangle11= rectanguloColor1(100,100);
@@ -44,6 +41,7 @@ public class HelloApplication extends Application {
         Rectangle rectangle14= rectanguloColor2(100,250);
         Rectangle rectangle15= rectanguloColor1(100,300);
         Rectangle rectangle16= rectanguloColor2(100,350);
+        //Columna5
         Rectangle rectangle17= rectanguloColor1(200,0);
         Rectangle rectangle18= rectanguloColor2(200,50);
         Rectangle rectangle19= rectanguloColor1(200,100);
@@ -52,6 +50,7 @@ public class HelloApplication extends Application {
         Rectangle rectangle22= rectanguloColor2(200,250);
         Rectangle rectangle23= rectanguloColor1(200,300);
         Rectangle rectangle24= rectanguloColor2(200,350);
+        //Columna7
         Rectangle rectangle25= rectanguloColor1(300,0);
         Rectangle rectangle26= rectanguloColor2(300,50);
         Rectangle rectangle27= rectanguloColor1(300,100);
@@ -60,6 +59,7 @@ public class HelloApplication extends Application {
         Rectangle rectangle30= rectanguloColor2(300,250);
         Rectangle rectangle31= rectanguloColor1(300,300);
         Rectangle rectangle32= rectanguloColor2(300,350);
+            //Columna2
             Rectangle rectangle33= rectanguloColor2(50,0);
             Rectangle rectangle34= rectanguloColor1(50,50);
             Rectangle rectangle35= rectanguloColor2(50,100);
@@ -68,6 +68,7 @@ public class HelloApplication extends Application {
             Rectangle rectangle38= rectanguloColor1(50,250);
             Rectangle rectangle39= rectanguloColor2(50,300);
             Rectangle rectangle40= rectanguloColor1(50,350);
+            //Columna4
             Rectangle rectangle41= rectanguloColor2(150,0);
             Rectangle rectangle42= rectanguloColor1(150,50);
             Rectangle rectangle43= rectanguloColor2(150,100);
@@ -76,6 +77,7 @@ public class HelloApplication extends Application {
             Rectangle rectangle46= rectanguloColor1(150,250);
             Rectangle rectangle47= rectanguloColor2(150,300);
             Rectangle rectangle48= rectanguloColor1(150,350);
+            //Columna6
             Rectangle rectangle49= rectanguloColor2(250,0);
             Rectangle rectangle50= rectanguloColor1(250,50);
             Rectangle rectangle51= rectanguloColor2(250,100);
@@ -84,6 +86,7 @@ public class HelloApplication extends Application {
             Rectangle rectangle54= rectanguloColor1(250,250);
             Rectangle rectangle55= rectanguloColor2(250,300);
             Rectangle rectangle56= rectanguloColor1(250,350);
+            //Columna8
             Rectangle rectangle57= rectanguloColor2(350,0);
             Rectangle rectangle58= rectanguloColor1(350,50);
             Rectangle rectangle59= rectanguloColor2(350,100);
