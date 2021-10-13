@@ -2,14 +2,17 @@
 
 package com.example.pruebas;
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import java.io.IOException;
 
-public class Ejercicio1_2 extends Application {
+public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent> {
     @Override
     public void start(Stage cercles) throws IOException{
         try {
@@ -81,8 +84,14 @@ public class Ejercicio1_2 extends Application {
         circulo.setCenterX(X);
         circulo.setCenterY(Y);
         circulo.setFill(Color.BLUE);
+        circulo.setOnMouseClicked(this);
         return circulo;
     }
 
     public static void main(String[] args) {launch();}
+
+    @Override
+    public void handle(MouseEvent mouseEvent) {
+        Circle circulo= (Circle) mouseEvent.getSource();
+    }
 }

@@ -10,14 +10,16 @@
 
 package com.example.pruebas;
 import javafx.application.Application;
+import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
+
 import java.io.IOException;
 
-public class Ejercicio1_1 extends Application {
+public class Ejercicio1_1 extends Application implements EventHandler<javafx.scene.input.MouseEvent> {
     @Override
     public void start(Stage escacs) throws IOException{
         try {
@@ -110,6 +112,7 @@ public class Ejercicio1_1 extends Application {
         rectangle.setX(X);
         rectangle.setY(Y);
         rectangle.setFill(Color.BLACK);
+        rectangle.setOnMouseClicked(this);
         return rectangle;
     }
 
@@ -118,8 +121,15 @@ public class Ejercicio1_1 extends Application {
         rectangle.setX(X);
         rectangle.setY(Y);
         rectangle.setFill(Color.WHITE);
+        rectangle.setOnMouseClicked(this);
         return rectangle;
     }
 
     public static void main(String[] args) {launch();}
+
+    @Override
+    public void handle(javafx.scene.input.MouseEvent mouseEvent) {
+        Rectangle rectangle= (Rectangle) mouseEvent.getSource();
+        System.out.println("He pulsado en el rectángulo de la columna "+(int)((rectangle.getX()/50)+1)+" y de la fila "+(int)((rectangle.getY()/50)+1)+".");
+    }
 }
