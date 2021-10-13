@@ -13,7 +13,7 @@ public class Ejercicio1_2 extends Application {
     @Override
     public void start(Stage cercles) throws IOException{
         try {
-            cercles.setTitle("Practica1.1: Escacs");
+            cercles.setTitle("Practica1.1: Circulos");
 
             //Fila8
             Circle rectangle1= circuloColor(25,375);

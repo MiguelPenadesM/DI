@@ -109,7 +109,7 @@ public class Ejercicio1_1 extends Application {
         Rectangle rectangle = new Rectangle(50,50);
         rectangle.setX(X);
         rectangle.setY(Y);
-        rectangle.setFill(Color.RED);
+        rectangle.setFill(Color.BLACK);
         return rectangle;
     }
 
