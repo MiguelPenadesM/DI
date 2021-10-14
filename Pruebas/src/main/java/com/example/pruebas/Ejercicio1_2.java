@@ -20,7 +20,7 @@ public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent
     public void start(Stage cercles) throws IOException{
         try {
 
-            cercles.setTitle("Practica1.1: Circulos");
+            cercles.setTitle("Practica1.2: Circulos");
 
             //Fila8
             Circle rectangle1= circuloColor(25,375);
