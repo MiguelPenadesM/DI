@@ -8,7 +8,6 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import java.io.IOException;
 
@@ -93,5 +92,16 @@ public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent
     @Override
     public void handle(MouseEvent mouseEvent) {
         Circle circulo= (Circle) mouseEvent.getSource();
+        if(((int)(circulo.getCenterY()/50)+1)==7||((int)(circulo.getCenterY()/50)+1)==6){
+            System.out.println("He pulsado en el círculo de la columna "+(int)(circulo.getCenterX()/50)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+        }else if(((int)(circulo.getCenterY()/50)+1)==4||((int)(circulo.getCenterY()/50)+1)==5){
+            System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-1)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+        }else if(((int)(circulo.getCenterY()/50)+1)==2||((int)(circulo.getCenterY()/50)+1)==3){
+        System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-2)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+        }else if(((int)(circulo.getCenterY()/50)+1)==1){
+            System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-3)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+        }else{
+            System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)+1)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+        }
     }
 }
