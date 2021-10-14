@@ -8,13 +8,18 @@ import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
 import java.io.IOException;
 
 public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent> {
+    private Text texto = new Text();
+
     @Override
     public void start(Stage cercles) throws IOException{
         try {
+
             cercles.setTitle("Practica1.1: Circulos");
 
             //Fila8
@@ -26,6 +31,7 @@ public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent
             Circle rectangle6= circuloColor(275,375);
             Circle rectangle7= circuloColor(325,375);
             Circle rectangle8= circuloColor(375,375);
+
             //Fila7
             Circle rectangle9= circuloColor(50,325);
             Circle rectangle10= circuloColor(100,325);
@@ -67,12 +73,14 @@ public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent
 
             //Fila1
             Circle rectangle36= circuloColor(200,25);
+            texto.setX(0);
+            texto.setY(430);
 
-
-            Group root = new Group(rectangle1,rectangle2,rectangle3,rectangle4,rectangle5,rectangle6,rectangle7,rectangle8,rectangle9,rectangle10,rectangle11,rectangle12,rectangle13,rectangle14,rectangle15,rectangle16,rectangle17,rectangle18,rectangle19,rectangle20,rectangle21,rectangle22,rectangle23,rectangle24,rectangle25,rectangle26,rectangle27,rectangle28,rectangle29,rectangle30,rectangle31,rectangle32,rectangle33,rectangle34,rectangle35,rectangle36);
-            Scene theScene = new Scene(root,425,425);
+            Group root = new Group(texto, rectangle1,rectangle2,rectangle3,rectangle4,rectangle5,rectangle6,rectangle7,rectangle8,rectangle9,rectangle10,rectangle11,rectangle12,rectangle13,rectangle14,rectangle15,rectangle16,rectangle17,rectangle18,rectangle19,rectangle20,rectangle21,rectangle22,rectangle23,rectangle24,rectangle25,rectangle26,rectangle27,rectangle28,rectangle29,rectangle30,rectangle31,rectangle32,rectangle33,rectangle34,rectangle35,rectangle36);
+            Scene theScene = new Scene(root,435,435);
             cercles.setScene(theScene);
             cercles.show();
+
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
@@ -93,14 +101,19 @@ public class Ejercicio1_2 extends Application implements EventHandler<MouseEvent
     public void handle(MouseEvent mouseEvent) {
         Circle circulo= (Circle) mouseEvent.getSource();
         if(((int)(circulo.getCenterY()/50)+1)==7||((int)(circulo.getCenterY()/50)+1)==6){
+            texto.setText("He pulsado en el círculo de la columna "+(int)(circulo.getCenterX()/50)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
             System.out.println("He pulsado en el círculo de la columna "+(int)(circulo.getCenterX()/50)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
         }else if(((int)(circulo.getCenterY()/50)+1)==4||((int)(circulo.getCenterY()/50)+1)==5){
+            texto.setText("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-1)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
             System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-1)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
         }else if(((int)(circulo.getCenterY()/50)+1)==2||((int)(circulo.getCenterY()/50)+1)==3){
-        System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-2)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+            texto.setText("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-2)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
+            System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-2)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
         }else if(((int)(circulo.getCenterY()/50)+1)==1){
+            texto.setText("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-3)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
             System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)-3)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
         }else{
+            texto.setText("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)+1)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
             System.out.println("He pulsado en el círculo de la columna "+(int)((circulo.getCenterX()/50)+1)+" y de la fila "+(int)((circulo.getCenterY()/50)+1)+".");
         }
     }

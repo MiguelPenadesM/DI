@@ -15,11 +15,13 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class Ejercicio1_1 extends Application implements EventHandler<javafx.scene.input.MouseEvent> {
+    private Text texto = new Text();
     @Override
     public void start(Stage escacs) throws IOException{
         try {
@@ -98,8 +100,11 @@ public class Ejercicio1_1 extends Application implements EventHandler<javafx.sce
             Rectangle rectangle63= rectanguloColor2(350,300);
             Rectangle rectangle64= rectanguloColor1(350,350);
 
-            Group root = new Group(rectangle1,rectangle2,rectangle3,rectangle4,rectangle5,rectangle6,rectangle7,rectangle8,rectangle9,rectangle10,rectangle11,rectangle12,rectangle13,rectangle14,rectangle15,rectangle16,rectangle17,rectangle18,rectangle19,rectangle20,rectangle21,rectangle22,rectangle23,rectangle24,rectangle25,rectangle26,rectangle27,rectangle28,rectangle29,rectangle30,rectangle31,rectangle32,rectangle33,rectangle34,rectangle35,rectangle36,rectangle37,rectangle38,rectangle39,rectangle40,rectangle41,rectangle42,rectangle43,rectangle44,rectangle45,rectangle46,rectangle47,rectangle48,rectangle49,rectangle50,rectangle51,rectangle52,rectangle53,rectangle54,rectangle55,rectangle56,rectangle57,rectangle58,rectangle59,rectangle60,rectangle61,rectangle62,rectangle63,rectangle64);
-            Scene theScene = new Scene(root,400,400);
+            texto.setX(0);
+            texto.setY(415);
+
+            Group root = new Group(texto, rectangle1,rectangle2,rectangle3,rectangle4,rectangle5,rectangle6,rectangle7,rectangle8,rectangle9,rectangle10,rectangle11,rectangle12,rectangle13,rectangle14,rectangle15,rectangle16,rectangle17,rectangle18,rectangle19,rectangle20,rectangle21,rectangle22,rectangle23,rectangle24,rectangle25,rectangle26,rectangle27,rectangle28,rectangle29,rectangle30,rectangle31,rectangle32,rectangle33,rectangle34,rectangle35,rectangle36,rectangle37,rectangle38,rectangle39,rectangle40,rectangle41,rectangle42,rectangle43,rectangle44,rectangle45,rectangle46,rectangle47,rectangle48,rectangle49,rectangle50,rectangle51,rectangle52,rectangle53,rectangle54,rectangle55,rectangle56,rectangle57,rectangle58,rectangle59,rectangle60,rectangle61,rectangle62,rectangle63,rectangle64);
+            Scene theScene = new Scene(root,400,420);
             escacs.setScene(theScene);
             escacs.show();
         }catch (Exception ex){
@@ -130,6 +135,7 @@ public class Ejercicio1_1 extends Application implements EventHandler<javafx.sce
     @Override
     public void handle(javafx.scene.input.MouseEvent mouseEvent) {
         Rectangle rectangle= (Rectangle) mouseEvent.getSource();
+        texto.setText("He pulsado en el rectángulo de la columna "+(int)((rectangle.getX()/50)+1)+" y de la fila "+(int)((rectangle.getY()/50)+1)+".");
         System.out.println("He pulsado en el rectángulo de la columna "+(int)((rectangle.getX()/50)+1)+" y de la fila "+(int)((rectangle.getY()/50)+1)+".");
     }
 }
