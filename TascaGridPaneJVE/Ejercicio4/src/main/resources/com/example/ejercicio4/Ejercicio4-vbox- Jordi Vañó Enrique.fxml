@@ -8,17 +8,13 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label text="Etiqueta VBOX" />
-      <Button mnemonicParsing="false" text="Button1 VBOX">
+      <Button minHeight="125.0" minWidth="125.0" mnemonicParsing="false" text="Button1 VBOX">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
-         <padding>
-            <Insets bottom="35.0" left="10.0" right="10.0" top="35.0" />
-         </padding>
          <VBox.margin>
             <Insets bottom="10.0" top="10.0" />
          </VBox.margin>
