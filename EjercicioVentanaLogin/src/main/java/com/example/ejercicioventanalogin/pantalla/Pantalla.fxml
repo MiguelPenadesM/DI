@@ -1,0 +1,22 @@
+<?language javascript?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:controller="com.example.ejercicioventanalogin.pantalla.PrimeraVentanaController" xmlns:fx="http://javafx.com/fxml/1" prefHeight="400" prefWidth="400" xmlns="http://javafx.com/javafx/17" >
+   <fx:script>
+      function handleSubmitButtonAction() {
+      actiontarget.setText("Calling the JavaScript");
+      }
+   </fx:script>
+      <VBox alignment="CENTER" layoutX="159.0" layoutY="117.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="83.0" prefWidth="282.0">
+            <Label text="Esta es la práctica de la TASCA 4" id="Label1"/>
+            <Label text="realizada por Jordi Vañó Enrique, de 2 DAM - B" id="Label2" />
+            <Label text="Haz &quot;Login&quot; para más" id="Label3"/>
+      </VBox>
+      <Button layoutX="277.0" layoutY="200.0" mnemonicParsing="false" text="Login" id="btnLogin" onAction="#empieza"/>
+</Pane>

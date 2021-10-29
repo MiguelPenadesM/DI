@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="361.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ejercicioventanalogin.Calculadora.CalculadoraController">
+    <children>
+        <TextField fx:id="result" layoutX="29.0" layoutY="23.0" prefHeight="31.0" prefWidth="202.0" />
+        <Button fx:id="cero" layoutX="86.0" layoutY="301.0" mnemonicParsing="false" onAction="#pressNumberButton" text="0" />
+        <Button fx:id="uno" layoutX="29.0" layoutY="247.0" mnemonicParsing="false" onAction="#pressNumberButton" prefHeight="31.0" prefWidth="29.0" text="1" />
+        <Button fx:id="dos" layoutX="86.0" layoutY="247.0" mnemonicParsing="false" onAction="#pressNumberButton" text="2" />
+        <Button fx:id="tres" layoutX="143.0" layoutY="247.0" mnemonicParsing="false" onAction="#pressNumberButton" text="3" />
+        <Button fx:id="cuatro" layoutX="29.0" layoutY="188.0" mnemonicParsing="false" onAction="#pressNumberButton" text="4" />
+        <Button fx:id="cinco" layoutX="86.0" layoutY="188.0" mnemonicParsing="false" onAction="#pressNumberButton" text="5" />
+        <Button fx:id="seis" layoutX="143.0" layoutY="188.0" mnemonicParsing="false" onAction="#pressNumberButton" text="6" />
+        <Button fx:id="siete" layoutX="29.0" layoutY="129.0" mnemonicParsing="false" onAction="#pressNumberButton" text="7" />
+        <Button fx:id="ocho" layoutX="86.0" layoutY="128.0" mnemonicParsing="false" onAction="#pressNumberButton" text="8" />
+        <Button fx:id="nueve" layoutX="143.0" layoutY="129.0" mnemonicParsing="false" onAction="#pressNumberButton" text="9" />
+        <Button fx:id="punto" layoutX="29.0" layoutY="301.0" mnemonicParsing="false" onAction="#pressNumberButton" prefHeight="31.0" prefWidth="29.0" text="." />
+        <Button fx:id="mas" layoutX="197.0" layoutY="247.0" mnemonicParsing="false" onAction="#pressYunsuanfu" text="+" />
+        <Button fx:id="menos" layoutX="197.0" layoutY="188.0" mnemonicParsing="false" onAction="#pressYunsuanfu" prefHeight="31.0" prefWidth="31.0" text="-" />
+        <Button fx:id="multiplicar" layoutX="197.0" layoutY="128.0" mnemonicParsing="false" onAction="#pressYunsuanfu" prefHeight="31.0" prefWidth="31.0" text="*" />
+        <Button fx:id="dividir" layoutX="197.0" layoutY="301.0" mnemonicParsing="false" onAction="#pressYunsuanfu" prefHeight="31.0" prefWidth="31.0" text="/" />
+        <Button fx:id="igual" layoutX="142.0" layoutY="301.0" mnemonicParsing="false" onAction="#pressDengyu" prefHeight="31.0" prefWidth="31.0" text="=" />
+        <Button fx:id="borrarUno" layoutX="152.0" layoutY="77.0" mnemonicParsing="false" onAction="#pressDeleteOne" prefHeight="31.0" prefWidth="76.0" text="←" />
+        <Button fx:id="limpiar" layoutX="29.0" layoutY="77.0" mnemonicParsing="false" onAction="#pressClear" prefHeight="31.0" prefWidth="76.0" text="clear" />
+    </children>
+</AnchorPane>
