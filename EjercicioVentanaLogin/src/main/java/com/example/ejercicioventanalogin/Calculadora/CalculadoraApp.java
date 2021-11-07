@@ -14,7 +14,7 @@ public class CalculadoraApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("Calculadora.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../../../../../resources/com/example/ejercicioventanalogin/Calculadora.fxml"));
         stage.setTitle ("Calculadora simple");
         stage.setScene(new Scene(root, 257, 361));
         stage.show();

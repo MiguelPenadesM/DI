@@ -1,9 +1,8 @@
-package com.example.ejercicioventanalogin.Login;
+package com.example.tasca3controlsjve.ejercicioventanalogin.Login;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import static javafx.geometry.HPos.RIGHT;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -15,6 +14,8 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
+import static javafx.geometry.HPos.RIGHT;
 
 public class Login extends Application {
 

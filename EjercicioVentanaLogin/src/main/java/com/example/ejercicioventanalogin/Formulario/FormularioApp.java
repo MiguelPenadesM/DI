@@ -13,7 +13,7 @@ public class FormularioApp extends Application {
     }
 
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(FormularioApp.class.getClassLoader().getResource("Formulario.fxml"));
+        Parent root = FXMLLoader.load(FormularioApp.class.getClassLoader().getResource("../../../../../resources/com/example/ejercicioventanalogin/Formulario.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setTitle("Tutorial JavaFX");
         primaryStage.setResizable(false);

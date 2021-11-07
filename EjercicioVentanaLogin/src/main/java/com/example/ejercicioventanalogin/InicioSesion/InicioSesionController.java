@@ -15,7 +15,7 @@ public class InicioSesionController {
     @FXML
     protected void start(ActionEvent actionEvent) throws IOException {
         Stage primeraPantalla = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("InicioSesion.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../../../../../resources/com/example/ejercicioventanalogin/InicioSesion.fxml"));
         Scene scene = new Scene(root, 600, 400);
         primeraPantalla.setTitle ("Inicio de Sesión");
         primeraPantalla.setScene(scene);
