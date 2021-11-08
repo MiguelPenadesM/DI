@@ -19,7 +19,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<GridPane prefHeight="700.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tasca3controlsjve.ejercicioventanalogin.Ejercicio3Controller">
+<GridPane prefHeight="700.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tasca3controlsjve.Ejercicio3Controller">
     <columnConstraints>
         <ColumnConstraints hgrow="SOMETIMES" maxWidth="274.39996337890625" minWidth="10.0" prefWidth="185.39998779296874" />
         <ColumnConstraints hgrow="SOMETIMES" maxWidth="374.4000244140625" minWidth="10.0" prefWidth="294.20001220703125" />

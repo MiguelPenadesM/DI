@@ -11,5 +11,5 @@ module com.example.tasca3controlsjve {
     requires eu.hansolo.tilesfx;
 
     opens com.example.tasca3controlsjve to javafx.fxml;
-    exports com.example.tasca3controlsjve.ejercicioventanalogin;
+    exports com.example.tasca3controlsjve;
 }

@@ -1,4 +1,4 @@
-package com.example.tasca3controlsjve.ejercicioventanalogin;
+package com.example.tasca3controlsjve;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -27,12 +27,12 @@ public class Ejercicio1Controller {
         @FXML private  TextField textPass;
 
         public void enviar(ActionEvent actionEvent) throws IOException {
-
-            if (textUser.getText().equalsIgnoreCase("esteban") && textPass.getText().equalsIgnoreCase("esteban")  ||  textUser.getText().equalsIgnoreCase("miguel") && textPass.getText().equalsIgnoreCase("miguel")){
+//Con este condicionante aplicamos en este caso los usuarios y contraseñas
+            if (textUser.getText().equalsIgnoreCase("Jordi") && textPass.getText().equalsIgnoreCase("Jordi")  ||  textUser.getText().equalsIgnoreCase("Miguel") && textPass.getText().equalsIgnoreCase("Miguel")){
 
                 System.out.println("Login completado");
                 Stage stage= new Stage();
-                FXMLLoader fxmlLoader = new FXMLLoader(JVEApplication.class.getResource("tarea1Completado.fxml"));
+                FXMLLoader fxmlLoader = new FXMLLoader(JVEApplication.class.getResource("Ejercicio1View.fxml"));
                 Scene scene = new Scene(fxmlLoader.load(), 600, 400);
                 stage.setTitle("Ejercicio1");
                 stage.setScene(scene);

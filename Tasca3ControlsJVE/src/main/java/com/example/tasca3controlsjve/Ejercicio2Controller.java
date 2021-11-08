@@ -1,4 +1,4 @@
-package com.example.tasca3controlsjve.ejercicioventanalogin;
+package com.example.tasca3controlsjve;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

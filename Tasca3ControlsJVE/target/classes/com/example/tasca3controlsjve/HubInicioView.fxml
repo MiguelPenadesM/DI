@@ -7,7 +7,7 @@
 
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.tasca3controlsjve.ejercicioventanalogin.HubInicio">
+      fx:controller="com.example.tasca3controlsjve.HubInicio">
     <children>
         <Text fill="#000000" layoutX="95.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ELIGE LA APLICACIÓN A EJECUTAR">
             <font>

@@ -5,57 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0cd75e2-9c7d-4f08-9602-d02f38860f2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio3Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/HubInicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/JVEController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1Scene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio2View.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio3Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/FormularioEjer.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/FormularioView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/HubInicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/HubInicioView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/JVEApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/JVEController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/Ejercicio3ControllerFormEnvio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/AppleLogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/LogoLinux.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/windows10.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Calculadora/Calculadora.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Calculadora/CalculadoraApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Calculadora/CalculadoraController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/Formulario.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/FormularioApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/FormularioController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/Respuestas/Respuestas.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/Respuestas/RespuestasController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/UsuarioHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/InicioSesion/InicioSesion.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/InicioSesion/InicioSesionApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/InicioSesion/InicioSesionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/JVEApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/JVEApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Login/Login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Login/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/pantalla/Pantalla.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/pantalla/PrimeraVentanaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/Ejercicio1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/Ejercicio2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/Ejercicio3Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/HubInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/HubInicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/JVEApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/JVEApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/ejercicioventanalogin/JVEController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tasca3controlsjve/JVEController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1Scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio1View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio2View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio2View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/Ejercicio3Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/FormularioEjer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/FormularioEjer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/FormularioView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/FormularioView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/HubInicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/HubInicioView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/HubInicioView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/JVEApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/JVEController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Calculadora/CalculadoraApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Calculadora/CalculadoraController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/FormularioApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/FormularioController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/Respuestas/RespuestasController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Formulario/UsuarioHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/InicioSesion/InicioSesionApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/InicioSesion/InicioSesionApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/InicioSesion/InicioSesionController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/JVEApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/JVEApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Login/Login$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/pantalla/PrimeraVentanaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio1Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio1Scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio1Scene.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio1View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio1View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio2View.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio2View.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/Ejercicio3Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/FormularioEjer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/FormularioEjer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/FormularioView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/FormularioView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/HubInicio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/HubInicioView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/HubInicioView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/JVEApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/JVEController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio1Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio2Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/Ejercicio3Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/HubInicio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/JVEApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/ejercicioventanalogin/JVEController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tasca3controlsjve/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
     </list>
@@ -70,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,6 +83,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/example/tasca3controlsjve" />
   </component>
   <component name="RecentsManager">
@@ -97,14 +91,18 @@
       <recent name="C:\Users\Usuario\Documents\GitHub\DI\Tasca3ControlsJVE\src\main\resources\com\example\tasca3controlsjve" />
       <recent name="C:\Users\Usuario\Documents\GitHub\DI\Tasca3ControlsJVE\src\main\java\com\example\tasca3controlsjve\" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.tasca3controlsjve" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="JVEApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.tasca3controlsjve.ejercicioventanalogin.JVEApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tasca3controlsjve.JVEApplication" />
       <module name="Tasca3ControlsJVE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.tasca3controlsjve.ejercicioventanalogin.*" />
+          <option name="PATTERN" value="com.example.tasca3controlsjve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
